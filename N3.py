@@ -1,0 +1,6 @@
+x=int(input())
+y=int(input())
+z=int(input())
+print(x, y, z)
+r=(x**2+y**2+z**2)**(1/2)
+print(r)
