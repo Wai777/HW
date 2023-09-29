@@ -1,9 +1,9 @@
-a=int(input())
-b=int(input())
-c=int(input())
-d=int(input())
-f=int(input())
-if ((f-d)==0):
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+f=float(input())
+if (f-d)==0:
     print("На 0 делить нельзя")
 else:
     print((a*b-c)/(f-d))
