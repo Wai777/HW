@@ -1,18 +1,14 @@
-x=int(input())
-y=int(input())
-if x>0:
-    if y>0:
-        print('1 четверть')
-    elif y<0:
-        print('4 четверть')
-    else:
-        print('Лежит на оси Оу') 
-elif x<0:
-    if y>0:
-        print('2 четверть')
-    elif y<0:
-        print('3 четверть')
-    else:
-        print('Лежит на оси Оу') 
-else:
-    print('Лежит на оси Ох')
+x=float(input())
+y=float(input())
+if x>0 and y>0:
+    print('1 четверть')
+if x>0 and y<0:
+    print('4 четверть')
+if y==0:
+    print('Лежит на оси Оx')
+if x<0 and y>0:
+    print('2 четверть')
+if x<0 and y<0:
+    print('3 четверть')
+if x==0:
+    print('Лежит на оси Оу')
