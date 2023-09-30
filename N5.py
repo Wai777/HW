@@ -12,5 +12,5 @@ elif x < 0 and y < 0:
     print('3 четверть')
 elif x == 0:
     print('Лежит на оси Оу')
-elif x == 0 and y == 0:
+else:
     print('Лежит в начале координат')
